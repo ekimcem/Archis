@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> <title> Signup Page </title>
+     </head>
+<h1>Sign Up</h1>
+<form>
+Name: <input name="name" type="text" placeholder = "Example Name"/> <br /> <br>
+Nickname: <input nickname="nickname" type="text" placeholder = "example_nickname"/> <br /> <br>
+Password: <input password="password" type="password" placeholder="*********"/> <br /><br>
+<label for="email">Enter your email:</label>
+<input type="email" id="email" name="email" placeholder = "example@example.com"> <br><br>
+<label for="phone">Enter your phone number:</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder = "5551239900"><br>
+
+<label for="comments">Your Message</label>
+
+<textarea  id="comments" name="comment" rows="4" cols="50" placeholder="Describe yourself here..."></textarea><br>
+<input type="checkbox" id="ToC" name="ToC" value="Accapted" checked>
+<label for="ToC"> I have Read Terms of Conditions</label><br>
+<input type="submit" value="Submit" />
+</form>
+</html>
