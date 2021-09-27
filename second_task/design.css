@@ -1,10 +1,46 @@
-p{
-    background-color:purple;
-}  
-
-  html {
-    background-image: url('assets/background.png');
-    min-height: 100%;
-    background-position: center;
+body {
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
- }
+    position: relative;
+}
+
+.ticket-background {
+    display: flex;
+    margin: auto;
+    width: 486px;
+    height: 708px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+
+.logo {
+    width: 76px;
+    height: 81px;
+    position: absolute;
+    left: 102px;
+    top: 51px;
+}
+
+.logo1 {
+    position: absolute;
+    left: 12.68%;
+    right: 6.3%;
+    top: 0.13%;
+    bottom: 19.03%;
+}
+
+.logo2 {
+    position: absolute;
+    left: 6.37%;
+    right: 0.04%;
+    top: 87.63%;
+    bottom: 0.01%;
+}
