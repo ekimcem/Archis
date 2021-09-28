@@ -1,87 +1,103 @@
-body {
-    background-image: url(assets/background.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-}
-
-h5 {
-    width: 455px;
-    height: 70px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 56px;
-    align-items: center;
-    text-align: center;
-    color: #434966;
-}
-
-.ticket-background {
-    display: flex;
-    margin: auto;
-    width: 486px;
-    height: 708px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    justify-content: center;
-    column-count: 1;
-}
-
-.logo {
-    width: 76px;
-    height: 81px;
-    position: absolute;
-    left: 102px;
-    top: 51px;
-}
-
-.logo1 {
-    position: absolute;
-    left: 12.68%;
-    right: 6.3%;
-    top: 0.13%;
-    bottom: 19.03%;
-}
-
-.logo2 {
-    position: absolute;
-    left: 6.37%;
-    right: 0.04%;
-    top: 87.63%;
-    bottom: 0.01%;
-}
-
-.ticket-no-container {
-    position: absolute;
-    width: 131.09px;
-    height: 17px;
-    left: 174px;
-    top: 119px;
-}
-
-.info-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    /* identical to box height */
-    color: #000000;
-}
-
-.expo-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 13px;
-    line-height: 15px;
-    color: #434966;
-}
+    body {
+        background-image: url(assets/background.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        position: relative;
+    }
+    
+    h5 {
+        width: 455px;
+        height: 70px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+        align-items: center;
+        text-align: center;
+        color: #434966;
+    }
+    
+    .ticket-background {
+        display: flex;
+        margin: auto;
+        width: 486px;
+        height: 708px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        justify-content: center;
+        column-count: 1;
+    }
+    
+    .logo {
+        width: 76px;
+        height: 81px;
+        position: absolute;
+        left: 102px;
+        top: 51px;
+    }
+    
+    .logo1 {
+        position: absolute;
+        left: 12.68%;
+        right: 6.3%;
+        top: 0.13%;
+        bottom: 19.03%;
+    }
+    
+    .logo2 {
+        position: absolute;
+        left: 6.37%;
+        right: 0.04%;
+        top: 87.63%;
+        bottom: 0.01%;
+    }
+    
+    .ticket-no-container {
+        position: absolute;
+        width: 132px;
+        height: 18px;
+        left: 174px;
+        top: 119px;
+        display: flex;
+    }
+    
+    .info-text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 15px;
+        color: #000000;
+    }
+    
+    .expo-text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        color: #434966;
+    }
+    
+    .prices {
+        position: absolute;
+        width: 282px;
+        height: 157px;
+        top: 288px;
+        left: 37;
+        display: grid;
+    }
+    
+    .group5 {
+        display: grid;
+        height: 103px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
