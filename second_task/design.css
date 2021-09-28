@@ -7,9 +7,7 @@
         position: relative;
     }
     
-    h5 {
-        width: 455px;
-        height: 70px;
+    h1 {
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
@@ -64,7 +62,7 @@
         width: 132px;
         height: 18px;
         left: 174px;
-        top: 119px;
+        margin-top: 115px;
         display: flex;
     }
     
@@ -89,7 +87,7 @@
     .prices {
         position: absolute;
         width: 282px;
-        height: 157px;
+        height: 100px;
         top: 288px;
         left: 37;
         display: grid;
@@ -100,4 +98,76 @@
         height: 103px;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 26px;
+    }
+    
+    .descriptions {
+        position: absolute;
+        width: 423;
+        height: 56;
+        top: 168px;
+        left: 37px;
+        display: grid;
+        grid-template-columns: auto 1fr auto 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    .your-ticket {
+        margin-top: 40px;
+        width: 455;
+        height: 70;
+    }
+    
+    .logo-in-card {
+        width: 76px;
+        height: 81px;
+        position: absolute;
+        right: 55px;
+        top: 296px;
+    }
+    
+    .checkout-line {
+        position: absolute;
+        width: 281.35px;
+        height: 0px;
+        left: 37px;
+        bottom: 291px;
+        border: 3px solid #000000;
+    }
+    
+    .total-container {
+        position: absolute;
+        width: 281px;
+        height: 21px;
+        left: 38px;
+        top: 424px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .total-text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .print-button {
+        position: absolute;
+        width: 414px;
+        height: 42;
+        left: 36px;
+        top: 503px;
+        background-color: #E33741;
+        border-radius: 5px;
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        text-align: center;
+        color: #FFFFFF;
     }
