@@ -171,3 +171,18 @@
         text-align: center;
         color: #FFFFFF;
     }
+    
+    .signature {
+        position: absolute;
+        width: 455px;
+        height: 72px;
+        left: 15px;
+        bottom: 52px;
+        font-family: Ruthie;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 72px;
+        line-height: 90px;
+        text-align: center;
+        color: #434966;
+    }
