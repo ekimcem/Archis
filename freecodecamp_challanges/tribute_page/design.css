@@ -1,0 +1,29 @@
+/*Since freecodecamp challange wants me to use CSS with IDs instead of class
+i created CSS with IDs.*/
+
+#main {}
+
+#title {
+    text-align: center;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+#image {
+    width: 100%;
+    max-width: max-content;
+}
+
+#tribute-info {
+    text-align: center;
+}
+
+#tribute-link {}
