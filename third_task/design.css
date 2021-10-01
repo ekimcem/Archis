@@ -1,21 +1,23 @@
 .main {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
 }
 
 .section01 {}
 
 .header {
     display: flex;
+    flex-flow: wrap;
     flex-direction: row;
-    justify-content: space-between;
     align-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .menu {
     display: flex;
-    flex-direction: row;
+    max-height: 60px;
 }
 
 .menu-button {
@@ -25,4 +27,60 @@
     font-size: 16px;
     line-height: 19px;
     color: #B8BECD;
+    border: none;
+    background-color: white;
+}
+
+.menu-button-selected {
+    font-weight: 500;
+    color: #202336;
+}
+
+.login-register-button {
+    border: 1px solid #FB8F1D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 60px;
+    display: flex;
+    text-align: center;
+}
+
+.login {
+    color: #FB8F1D;
+    background-color: white;
+    padding: 0px 50px 0px 50px;
+}
+
+.register {
+    color: white;
+    background-color: #FB8F1D;
+    padding: 0px 50px 0px 50px;
+}
+
+.section01-content-wrapper {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.info-wrapper {
+    flex: 1;
+}
+
+.image-wrapper {
+    flex: 1;
+}
+
+.text-header1 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #202336;
 }
