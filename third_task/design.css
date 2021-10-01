@@ -1,0 +1,28 @@
+.main {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.section01 {}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-button {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B8BECD;
+}
