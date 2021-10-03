@@ -6,7 +6,7 @@
 
 .section01 {}
 
-.header {
+.nav-top-bar {
     display: flex;
     flex-flow: wrap;
     flex-direction: row;
@@ -65,7 +65,6 @@
     margin-top: 5%;
     display: flex;
     justify-content: center;
-    flex-flow: wrap;
 }
 
 .info-wrapper {
@@ -83,4 +82,16 @@
     font-size: 64px;
     line-height: 80px;
     color: #202336;
+}
+
+.img-sec-01 {
+    position: relative;
+}
+
+.selection-grid {}
+
+.dropdown-menu {
+    border: 0.8px solid #AFB0B9;
+    box-sizing: border-box;
+    border-radius: 6px;
 }
