@@ -254,6 +254,86 @@
     justify-content: space-between;
 }
 
-.testimonials-img{
+.testimonials-img {
     margin-top: 43px;
+}
+
+.guides-container {
+    max-width: 1205px;
+    min-width: 542px;
+    margin-bottom: 248px;
+    margin-left: 240px;
+    margin-right: 154px;
+}
+
+.guides-circle {
+    position: relative;
+    top: 85px;
+    left: 3.7%;
+}
+
+.guides-column {
+    display: flex;
+    flex-direction: column;
+    width: 39%;
+    max-width: 481px;
+    margin-top: 132px;
+    margin-right: 49px;
+}
+
+.guides-h1 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.guides-p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+    width: 93.5%;
+    max-width: 450px;
+    margin-bottom: 39px;
+}
+
+.guides-button {
+    background: #FB8F1D;
+    border-radius: 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 55px;
+    color: #FFFFFF;
+    width: 34%;
+    min-width: 85px;
+}
+
+.guides-row {
+    display: flex;
+    overflow: auto;
+}
+
+.guides-img {
+    margin-right: 58px;
+    width: 599px;
+    height: 542px;
+}
+
+.guides-plus {
+    position: relative;
+    bottom: 223px;
+}
+
+.guides-tilted-plus {
+    position: relative;
+    left: 34.5%;
+    bottom: 96.26px;
 }
