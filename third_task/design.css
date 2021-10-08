@@ -1,228 +1,226 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        align-content: center;
-    }
-    
-    .main {
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-top: 2%;
-    }
-    
-    .section01 {}
-    
-    .nav-top-bar {
-        display: flex;
-        flex-flow: wrap;
-        flex-direction: row;
-        align-content: center;
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    .menu {
-        display: flex;
-        max-height: 60px;
-    }
-    
-    .menu-button {
-        font-family: Inter;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 19px;
-        color: #B8BECD;
-        border: none;
-        background-color: white;
-        padding: 0 10px;
-    }
-    
-    .menu-button-selected {
-        font-weight: 500;
-        color: #202336;
-    }
-    
-    .login-register-button {
-        border: 1px solid #FB8F1D;
-        box-sizing: border-box;
-        border-radius: 8px;
-        font-family: Inter;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 60px;
-        display: flex;
-        text-align: center;
-        padding: 0 10px;
-        margin: 0 10px;
-    }
-    
-    .login {
-        color: #FB8F1D;
-        background-color: white;
-        padding: 0px 50px 0px 50px;
-    }
-    
-    .register {
-        color: white;
-        background-color: #FB8F1D;
-        padding: 0px 50px 0px 50px;
-    }
-    
-    .section01-content-wrapper {
-        margin-top: 5%;
-        display: flex;
-    }
-    
-    .info-wrapper {
-        flex: 1;
-    }
-    
-    .image-wrapper {
-        flex: 1;
-    }
-    
-    .info-text {
-        margin-top: 10%;
-    }
-    
-    .text-header1 {
-        font-family: Playfair Display;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 64px;
-        line-height: 80px;
-        color: #202336;
-    }
-    
-    .img-sec-01 {
-        width: 100%;
-    }
-    
-    .text-header2 {
-        font-family: Inter;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 22px;
-        line-height: 27px;
-        color: #202336;
-        margin-top: 10%;
-    }
-    
-    .seperation-line {
-        width: 32px;
-        color: #202336;
-        border-bottom: 4px solid black;
-        margin-top: 5%;
-    }
-    
-    .selection-grid {
-        margin-top: 5%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 10px;
-    }
-    
-    .custom-select {
-        width: 600px;
-        position: relative;
-        display: flex;
-    }
-    
-    .explore {
-        color: white;
-        background-color: #FB8F1D;
-        margin-top: 5%;
-        display: inline-block;
-        padding: 0 60px;
-    }
-    
-    .section02 {
-        display: flex;
-    }
-    
-    .section02-image-wrapper {
-        flex: 0 0 50%;
-        width: 100%;
-    }
-    
-    .section02-info-wrapper {
-        flex: 1;
-        margin-left: 5%;
-    }
-    
-    .text-header2 {
-        font-family: Playfair Display;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
-        line-height: 80px;
-        color: #202336;
-    }
-    
-    .mulish {
-        font-family: Mulish;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 17px;
-        line-height: 30px;
-        /* or 176% */
-        color: #7D7987;
-    }
-    
-    .learnmorebutton {
-        margin-top: 5%;
-        margin-left: 0;
-    }
-    
-    .section03-header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .featured-destinations-row {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 25px;
-    }
-    
-    .view-all-button {
-        align-self: center;
-        font-family: Inter;
-        font-size: 17px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 60px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #FB8F1D;
-        padding-right: 5px;
-        background-color: white;
-        border: none;
-    }
-    
-    .featured-destinations-text {
-        margin-top: 0;
-    }
-    
-    select {
-        background-color: transparent;
-        border: 0.8px solid #AFB0B9;
-        border-radius: 6px;
-        margin: 0;
-        width: 100%;
-        height: 52px;
-        max-width: 250px;
-        font-family: Inter;
-        font-size: 15px;
-        cursor: inherit;
-        line-height: inherit;
-        outline: none;
-        align-items: center;
-        padding: 0.5em 3.5em 0.5em 1em;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+.main {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+.nav-top-bar {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    max-height: 60px;
+}
+
+.menu-button {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B8BECD;
+    border: none;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.menu-button-selected {
+    font-weight: 500;
+    color: #202336;
+}
+
+.login-register-button {
+    border: 1px solid #FB8F1D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 60px;
+    display: flex;
+    text-align: center;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.login {
+    color: #FB8F1D;
+    background-color: white;
+    padding: 0px 50px 0px 50px;
+}
+
+.register {
+    color: white;
+    background-color: #FB8F1D;
+    padding: 0px 50px 0px 50px;
+}
+
+.section01-content-wrapper {
+    margin-top: 5%;
+    display: flex;
+}
+
+.info-wrapper {
+    flex: 1;
+}
+
+.image-wrapper {
+    flex: 1;
+}
+
+.info-text {
+    margin-top: 10%;
+}
+
+.text-header1 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #202336;
+}
+
+.img-sec-01 {
+    width: 100%;
+}
+
+.text-header2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #202336;
+    margin-top: 10%;
+}
+
+.seperation-line {
+    width: 32px;
+    color: #202336;
+    border-bottom: 4px solid black;
+    margin-top: 5%;
+}
+
+.selection-grid {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.custom-select {
+    width: 600px;
+    position: relative;
+    display: flex;
+}
+
+.explore {
+    color: white;
+    background-color: #FB8F1D;
+    margin-top: 5%;
+    display: inline-block;
+    padding: 0 60px;
+}
+
+.section02 {
+    display: flex;
+}
+
+.section02-image-wrapper {
+    flex: 0 0 50%;
+    width: 100%;
+}
+
+.section02-info-wrapper {
+    flex: 1;
+    margin-left: 5%;
+}
+
+.text-header2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 80px;
+    color: #202336;
+}
+
+.mulish {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    /* or 176% */
+    color: #7D7987;
+}
+
+.learnmorebutton {
+    margin-top: 5%;
+    margin-left: 0;
+}
+
+.section03-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.featured-destinations-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.view-all-button {
+    align-self: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FB8F1D;
+    padding-right: 5px;
+    background-color: white;
+    border: none;
+}
+
+.featured-destinations-text {
+    margin-top: 0;
+}
+
+select {
+    background-color: transparent;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    margin: 0;
+    width: 100%;
+    height: 52px;
+    max-width: 250px;
+    font-family: Inter;
+    font-size: 15px;
+    cursor: inherit;
+    line-height: inherit;
+    outline: none;
+    align-items: center;
+    padding: 0.5em 3.5em 0.5em 1em;
+}
